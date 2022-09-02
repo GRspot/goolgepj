@@ -1,0 +1,141 @@
+.asset-right{
+  text-align:right;
+  /*이건 텍스트잖아 바보야*/
+}
+.navbar{
+  float: right;
+  border:1px;
+  margin:10px;
+}
+
+.nav-item{
+  text-decoration: none;
+  color:black;
+  margin-right:15px;
+}
+.nav-item:hover {
+  /*특정 행동 했을때 이벤트 발생 즉 마우스가 맴돌때 이벤트 발생
+  =mouse over*/
+  text-decoration: underline;
+}
+.main{
+  margin-top:300px;
+  text-align:center;
+}
+/*body에 마침표를 먼저 적지 않은 이유는 class를 사용해서 css를 적용하는 것이 아니라 html 태그 이름을 직접 언급하여 스타일을 줄 것이기 떄문이다.*/
+
+body{
+ display:contents ;
+}
+
+.input-eara{
+  margin-top:20px;
+}
+.input-box{
+  width:561px;
+  height:44px;
+  border-radius:24px;
+  border: 1px solid #dfe1e5;
+  padding-left:50px;
+  padding-right:50px;
+}
+.ext-boxes1{
+  width:120px;
+  height:36px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  margin: 11px 4px;
+  padding: 0 16px;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Apple SD Gothic Neo,arial,sans-serif;
+  font-size: 14px;
+  
+}
+.ext-boxes2{
+  width:135px;
+  height:36px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  margin: 11px 4px;
+  padding: 0 16px;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Apple SD Gothic Neo,arial,sans-serif;
+  font-size: 14px;
+  
+}
+.search-icon{
+  position: relative;
+  left:40px;
+  color: #9aa0a6;
+}
+.mic-con{
+  position: relative;
+  right:40px;
+  color: #9aa0a6;
+}
+.button-area{
+  padding-top:18px;
+}
+.ext-boxes1:hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+.ext-boxes2:hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+.font{
+  font-family: arial,sans-serif;
+  font-size:13px;  
+  color: rgba(0,0,0,0.87);
+}
+.footer{
+  background: #f2f2f2;
+  position: absolute;
+  bottom:0px;
+  width:100%;
+  /*이 100%는 Body에 대한 100퍼센트로*/
+}
+.first-line{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+  font-family: arial,sans-serif;
+  
+}
+.second-line{
+ padding: 15px 30px;
+ font-size: 15px;
+color: #70757a;
+font-family: arial,sans-serif;
+
+
+}
+.font{
+font-family: arial,sans-serif;
+color: #3c4043;
+}
+.second-line-second{
+  float:right;
+      
+}
+.footer-text{
+  text-decoration: none;
+  color: #70757a;
+  padding: 15px;  
+  font-size: 14px;
+  
+}
+.footer-text:hover{
+  text-decoration: underline;
+}
+.korean-text{
+  text-decoration: none; 
+}
